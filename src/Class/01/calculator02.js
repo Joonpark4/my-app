@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 /* eslint-disable*/
 import '../css/calulator.css';
-import {useState} from 'react';
+import React, {useState} from 'react';
 
 // state 끌어올리기(lifting-state-up)
 function AddCalulator(){

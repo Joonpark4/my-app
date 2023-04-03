@@ -1,8 +1,7 @@
 // import logo from './logo.svg';
 /* eslint-disable*/
-import './App.css';
-import './Apps/hello.js';
-import Hello from './Apps/hello.js';
+import '../App.css';
+import Hello from './hello.js';
 
 function App() {
   return (
