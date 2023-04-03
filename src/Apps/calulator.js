@@ -1,0 +1,68 @@
+// import logo from './logo.svg';
+/* eslint-disable*/
+import '../css/calulator.css';
+import {useState} from 'react';
+
+// state 끌어올리기(lifting-state-up)
+function AddCalulator(){
+  const [num1, setNum1] = useState(0)
+  const [num2, setNum2] = useState(0)
+  // useState hook의 초기값을 생략하면, 해당 state의 초기값은 undefined가 됩니다.
+  // 이때, 컴포넌트가 렌더링될때 해당 state의 값이 undefinded에서 첫번째 전달인자로 지정한 값으로 설정됩니다.
+  const handleNum1 = (e) =>{
+    const newNum1 = parseInt(e.target.value);
+    setNum1(newNum1);
+  }
+  const handleNum2 = (e) =>{
+    const newNum2 = parseInt(e.target.value);
+    setNum2(newNum2);
+  }
+  // 두개의 이벤트 핸들러 함수 handleNum1과 handleNum2를 정의합니다. 사용자가 두 개의 입력 필드에 입력할 때마다 호출됩니다.
+  // 이 함수들은 입력 값의 문자열을 parseInt를 사용하여 정수로 반환하고,
+  // 해당 값에 맞는 상태 업데이트 함수(setNum 또는 setNum2)를 사용하여 state 값을 업데이트 합니다.
+  // JavaScript에서 문장의 끝에 세미콜론을 붙이지 않아도 실행이 가능합니다.
+  // 따라서 ;세미콜론을 생략해도 문제가 없습니다.
+  // 코드의 가독성을 높이기 위해 일관성 있게 세미콜론을 사용하는 것이 좋습니다
+  return (
+    <div>
+        <h2>더하기</h2>
+        <input type="number" name="num1" value={num1} onChange={handleNum1}/>
+        <input type="number" name="num2" value={num2} onChange={handleNum2}/>
+        결과 : {num1+num2}
+    </div>
+  );
+}
+
+function MinusCalulater(){
+  const [num1, setNum1] = useState(0)
+  const [num2, setNum2] = useState(0)
+  const handleNum1 = (e) =>{
+    const newNum1 = parseInt(e.target.value);
+    setNum1(newNum1);
+  }
+  const handleNum2 = (e) =>{
+    const newNum2 = parseInt(e.target.value);
+    setNum2(newNum2);
+  }
+  return (
+    <div>
+        <h2>빼기</h2>
+        <input type="number" name="num1" value={num1} onChange={handleNum1}/>
+        <input type="number" name="num2" value={num2} onChange={handleNum2}/>
+        결과 : {num1-num2}
+    </div>
+  );
+}
+
+function App() {
+  return (
+    
+    <div className="App">
+        <h1>계산기</h1>
+        <AddCalulator></AddCalulator>
+        <MinusCalulater/>
+    </div>
+  );
+}
+
+export default App;
