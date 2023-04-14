@@ -1,7 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-// import App from './Class/01/blog.js';
-import App from './nico/practice.js';
+import App from './Class/03/map.js';
+// import App from './nico/practice.js';
+// import App from './practice/sanghwal_delete.js';
 
 
 const container = document.getElementById("root");

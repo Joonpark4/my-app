@@ -1,13 +1,10 @@
 // import logo from './logo.svg';
 /* eslint-disable*/
 import './App.css';
-import './Apps/hello.js';
-import Hello from './Apps/hello.js';
 
 function App() {
   return (
     <div className="App">
-      <Hello name="react" color="red" />
     </div>
   );
 }
