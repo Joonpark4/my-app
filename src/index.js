@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './Class/03/counter.jsx';
+import App from './Class/03/Router';
 // import App from './nico/practice.js';
 // import App from './practice/sanghwal_delete.js';
 
