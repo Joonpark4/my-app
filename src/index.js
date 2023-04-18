@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './Class/04/redux2';
 // import App from './nico/practice.js';
-// import App from './practice/sanghwal_delete.js';
+// import App from './practice/MemoriesReminder/App.js';
 
 
 const container = document.getElementById("root");

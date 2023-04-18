@@ -2,6 +2,9 @@ import React from 'react';
 import {useDispatch}from 'react-redux';
 import {increment,decrement} from './action';
 
+// const increment=()=>({type:'INCREMENT'})
+// const decrement=()=>({type:'DECREMENT'})
+
 function CounterButtons(){
     const dispatch=useDispatch();
     return(
