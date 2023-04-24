@@ -1,8 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './Class/04/redux2';
-// import App from './nico/practice.js';
+// import App from './Class/06/redux/App';
+import App from './nico/practice.js';
 // import App from './practice/MemoriesReminder/App.js';
+// import App from './card';
 
 
 const container = document.getElementById("root");

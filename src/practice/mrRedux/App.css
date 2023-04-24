@@ -1,0 +1,142 @@
+*{
+  margin: 0; padding: 0;
+  font-family: Helvetica;
+}
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.black-nav{
+  flex-basis: 10%;
+  background: black;
+  width: 100%;
+  display: flex;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: calc(30px + 1vw);
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+.list{
+  text-align: left;
+  border: 3px solid lightslategray;
+  border-top: none;
+  padding: 10px 30px 10px 20px;
+  font-size: calc(15px + 1vw);
+  cursor: pointer;
+}
+.list:first-child{
+  border-top: 3px solid lightslategray;
+}
+.add_list{
+  text-align: left;
+  border: 3px solid lightslategray;
+  border-top: none;
+  padding: 10px 30px 10px 20px;
+  font-size: calc(15px + 1vw);
+  cursor: pointer;
+  color: white;
+  background-color: rgb(56, 95, 132);
+}
+.list_top{
+  display: flex;
+  justify-content: space-between;
+}
+.list_bottom{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.list_bottom .btn_list{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+  color: black;
+  font-size: calc(15px + 1vw);
+  border: 3px solid gray;
+  border-right: none;
+  cursor: pointer;
+  padding: 1.5vh;
+}
+.btn_list:last-child{
+  border-right: 3px solid gray;
+}
+
+.selected{
+  color: white;
+  background-color: rgb(56, 95, 132);
+}
+
+.section{
+  height: 72%;
+  width: 100vw;
+  overflow: auto;
+}
+
+.option{
+  height: 8%;
+  border: none;
+}
+.option>div{
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.bottom{
+  flex-basis: 10%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: calc(20px + 1vw);
+  border: 3px solid gray;
+  border-right: none;
+  cursor: pointer;
+}
+.btn:last-child{
+  border-right: 3px solid gray;
+}
+.btn_option{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+  padding: 0px 10px;
+  cursor: pointer;
+  border: 3px solid black;
+  border-right: none;
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+}
+.btn_option:last-child{
+  border-right: 3px solid black;
+}
+
+.updating_text{
+  padding-left: 2%;
+  font-size: calc(15px + 1vw);
+  width: 35vw;
+  border: none;
+}
+

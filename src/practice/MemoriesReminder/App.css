@@ -55,6 +55,12 @@
     justify-content: space-around;
     margin-top: 3%;
   }
+  .list_word{
+
+  }
+  .list_meaning{
+
+  }
   .list_bottom .btn_list{
     flex: 1;
     display: flex;
