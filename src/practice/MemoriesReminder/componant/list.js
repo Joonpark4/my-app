@@ -1,8 +1,8 @@
-// import logo from './logo.svg';
 /* eslint-disable*/
 import React, { useState } from 'react';
 
 function List(props) {
+  
   return (
     <div className="list">
       <div className="list_top">
