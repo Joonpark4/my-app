@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 // import App from "./Class/06/redux/App";
 // import App from './practice/mrRedux/App.js';
 // import store from './practice/mrRedux/store.js';
-import App from './practice/hooks/05_useContext';
+import App from './practice/hooks/08_useReducer2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
