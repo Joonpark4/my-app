@@ -1,17 +1,12 @@
 // import logo from './logo.svg';
 /* eslint-disable*/
 import './App.css';
-
-function App() {
+import React from 'react';
+export default function App() {
   return (
-    <div className="App">
-      안녕하세요
-    </div>
-  );
+    <div>Hi</div>
+  )
 }
-
-export default App;
-
 // Hello 컴포넌트에 "react"라는 이름과 "red"라는 색상을 명시적으로 전달
 // App.js가 상위 컴포넌트 입니다.
 // 이때 Hello 컴포넌트에 속성을 전달하고 있습니다.
