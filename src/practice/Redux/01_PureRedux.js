@@ -24,7 +24,6 @@ function reducer(currentState, action) {
   }
   return newState;
 }
-
 // 스토어는 여기에 선언
 const store = createStore(reducer);
 

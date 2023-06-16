@@ -7,13 +7,13 @@ import ReactDOM from 'react-dom/client';
 // import store from './practice/mrRedux/store.js';
 // import App from './practice/hooks/08_useReducer2';
 // import App from './App';
-import App from './practice/Redux/03_PureRedux'
+import App from './practice/Redux/06_ReduxToolkit'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <App />
-  // </React.StrictMode>
+  </React.StrictMode>
 );
 
 // const root = document.getElementById("root");
